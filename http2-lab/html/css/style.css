@@ -1,0 +1,61 @@
+body {
+    padding-top: 50px;
+}
+
+.h2-enabled {
+    display: block;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    background-color: #00da1d;
+}
+.h2o-h2-enabled {
+    display: block;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    background-color: #00dada;
+}
+
+.apache2-h2-enabled {
+    display: block;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    background-color: #ff7300;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.performance-image {
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+}
+.image-form-container {
+    margin:30px;
+}
+.image-container {
+    grid-template-columns: repeat(var(--cut),1fr);
+    width: 1024px;
+}
+.callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-color: #1b809e;
+    border-left-width: 5px;
+    border-radius: 3px;
+    display: block;
+    text-align: left;
+}
+.callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #1b809e;
+}
